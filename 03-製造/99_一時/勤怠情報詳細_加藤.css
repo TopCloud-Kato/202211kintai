@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*社員情報*/
+#id{
+	position: absolute; left: 100px;
+	border: 0px solid #ffffff;
+}
+#name{
+	position: absolute; left: 100px;
+	border: 0px;
+}
+#dept{
+	position: absolute; left: 100px;
+	border: 0px;
+}
+
+/*ボタン*/
+#create{
+	position: relative; left: 1000px; top: -10px;
+}
+#return{
+	position: relative; left: 1050px; top: -10px;
+}
+#delete{
+	position: relative; left: 1100px; top: 10px;
+}
+/*テーブル*/
+div{
+	overflow: scroll;
+	width: 1170px;
+	height: 200px;
+}
+table{
+	position: relative;
+}
+th{
+	background: #d3d3d3;
+	position: sticky;
+    top: 0;
+    left: 0;
+}
+td{
+	text-align: center;
+}
+
+#check{
+	width: 50px;
+}
+#day{
+	width: 150px;
+}
+#start{
+	width: 120px;
+}
+#end{
+	width: 120px;
+}
+#rest{
+	width: 80px;
+}
+#work{
+	width: 80px;
+}
+#over{
+	width: 80px;
+}
+#status{
+	width: 80px;
+}
+#remark{
+	width: 300px;
+}
